@@ -1,0 +1,8 @@
+# service for azure mysql database 
+apiVersion: v1
+kind: Service
+metadata:
+  name: mysql
+spec:
+  type: ExternalName 
+  externalName: akswebappmysqldb.mysql.database.azure.com
