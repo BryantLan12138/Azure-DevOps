@@ -1,6 +1,6 @@
 # Deploy UserManagement Web Application with MySQL Database
-
-
+## APP Architecture 
+![Screenshot](usermanagement.png)
 ## Step-01: Introduction
 - We are going to deploy a **User Management Web Application** which will connect to MySQL Database schema **webappdb** during startup.
 - Then we can test the following APIs
@@ -11,10 +11,10 @@
 
 | Kubernetes Concepts  | YAML File |
 | ------------- | ------------- |
-| Deployment  | 05-UserMgmtWebApp-Deployment.yml  |
-| Environment Variables  | 05-UserMgmtWebApp-Deployment.yml  |
-| Init Containers  | 05-UserMgmtWebApp-Deployment.yml  |
-| Load Balancer Service  | 06-UserMgmtWebApp-Service.yml  |
+| Deployment  | UserMgmtWebApp-Deployment.yml  |
+| Environment Variables  | UserMgmtWebApp-Deployment.yml  |
+| Init Containers  | UserMgmtWebApp-Deployment.yml  |
+| Load Balancer Service  | UserMgmtWebApp-Service.yml  |
 
 ## Step-02: Create following Kubernetes manifests
 
